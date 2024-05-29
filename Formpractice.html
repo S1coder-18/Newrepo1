@@ -40,14 +40,82 @@
         <br/>
         
         <label for="Password">Password :</label>
-        <input type="password" id="password" placeholder="Enter Password">
+        <input type="password" id="password" placeholder="Enter Password" pattern="^[a-zA-Z0-9]{8,}&">
         <br/>
         <label for="date-change">Date :</label>
         <input type="date" id="date-change" name="date">
+        <br/>
+        <label for="file1">Upload :</label>
+        <input type="file" id="file1" name="picture" accept="image/png,imag/jpeg">
         </div>
 
     </fieldset>
 </section>
+
+<section>
+    <fieldset>
+        <legend>Persoal Data</legend>
+        <div>
+            <label for="user-name">Name :</label>
+            <input type="text" id="user-name" placeholder="Enter Name">
+            <br/>
+            <label for="contact-number">Contact-Number</label>
+            <input type="tel" id="contact-number" placeholder="Enter Number">
+            
+        </div>
+
+        <br/>
+
+       
+    </fieldset>
+</section>
+<section>
+    <fieldset>
+        <legend>Gender</legend>
+        <div>
+            <label for="radio1">Male :</label>
+            <input type="radio" id="radio1" name="radioG">
+
+            <label for="radio2">Fe-male :</label>
+            <input type="radio" id="radio2" name="radioG">
+
+            <label for="radio3">Prefer not say :</label>
+            <input type="radio" id="radio3" name="radioG">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Language</legend>
+        <div>
+            <label for="lang1">English</label>
+            <input type="checkbox" id="lang1" name="Langpreference">
+
+            <label for="lang2">Hindi</label>
+            <input type="checkbox" id="lang2" name="Langpreference">
+        </div>
+    </fieldset>
+</section>
+<section>
+    <fieldset>
+        <legend>Food Menu</legend>
+   
+    <div>
+        <label for="Food">Choose Food</label>
+        <select name="Fast-Food" id="Food" required>
+            <option value="No Choice">No choice</option>
+            <option value="Maggi">maggi</option>
+            <option value="kurkure">kurkure</option>
+            <option value="Chips">chips</option>
+        </select>
+    </div>
+</fieldset>
+</section>
+
+<label for="city">Choose your city:</label>
+<input list="city" class="form-control" placeholder="City name" type="text">
+<datalist id="city">
+    <option value="Umaria"></option>
+    <option value="Bhopal"></option>
+    <option value="Jabalpur"></option>
 
 </body>
 </html>
