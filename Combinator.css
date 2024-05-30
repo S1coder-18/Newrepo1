@@ -22,3 +22,7 @@ h3 + p {
 h3 ~ p{
     color: aquamarine;
 }
+
+h1:hover{
+    background-color: brown;
+}

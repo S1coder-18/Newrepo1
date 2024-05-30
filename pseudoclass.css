@@ -1,0 +1,8 @@
+p::first-line {
+    font: bolder;
+    color: blue;
+}
+
+p:last-child{
+    font-size: larger;
+}
